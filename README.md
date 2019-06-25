@@ -15,6 +15,16 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
   <img src="Master's Program Admission/plot1.png" width="55%" class="center">
   </p>
 
+## Mini Capstone Projects
+
+#### *tools: scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy, Folium*
+* **[2017 911 Responses in Toronto][2]**: This project mainly focused on data visualization using location data provided from Toronto City Open Data. The data frame was reorganized and clustered based on the top 10 call reason for each intersection in downtown Toronto using ***K-mean Clustering***. Then, each data were visualized on the folium map. For the future reference, it will be great to see the top 5 fire stations recieved 911 calls and to show thier coverage within x km radius on the same map. 
+
+<p align="center">
+  <img src="2017 911 Responses Toronto/toronto map.png" width="55%" class="center">
+  <img src="2017 911 Responses Toronto/map legend.png" width="45%" class="center">
+  </p>
 
 
 [1]:https://github.com/kylelee417/CollabProject/blob/master/project_notebook.ipynb
+[2]:https://github.com/kylelee417/Capstone-Project/blob/master/Final_project_Kyle.ipynb
