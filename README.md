@@ -27,4 +27,4 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 
 [1]:https://github.com/kylelee417/CollabProject/blob/master/project_notebook.ipynb
-[2]:https://github.com/kylelee417/Capstone-Project/blob/master/Final_project_Kyle.ipynb
+[2]:https://github.com/kylelee417/Capstone-Project
