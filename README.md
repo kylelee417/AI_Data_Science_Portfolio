@@ -10,7 +10,10 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 * **[Master's Program Admission][1]**: Designed a customized ***Logistic Regression and SVM *** model and achieved 90% accuracy in classifying whether an aplicant would likely be admitted or not admitted using 7 different features. ***PCA*** was also performed during the EDA process; however, the information loss was more than 20%. Therefore, it was found that using a simple logictic regression or classification model such as SVM would give the best fit model considering the dataset and variables were small.
 
-
+<p align="center">
+  <img src="Master's Program Admission/cm_LR.png" width="35%" class="center">
+  <img src="Master's Program Admission/plot1.png" width="55%" class="center">
+  </p>
 
 
 
