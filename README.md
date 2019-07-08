@@ -18,7 +18,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 ## Mini Capstone Projects
 * **[Mini MNIST Project ver. 1.0][3]**: A simple mini project to creat and test a deep learning model using MNIST data from Keras. 80:20 test split was done out of 60k dataset using the ***TensorFlow***. The model was created and tested using Google Colaboratory, GPU method. No optimization process was done because this was only meant to learn how to create a model. the loss vs. accuracy graph was created by running 20 epochs:
 <p align="center">
-  <img src="MNIST TensorFlow mini Project/epoch_train_val.png" width="55%" class="center">
+  <img src="TensorFlow mini Project/epoch_train_val.png" width="55%" class="center">
   </p>
 
 #### *tools: scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy, Folium*
