@@ -17,9 +17,10 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 ## Mini Capstone Projects
 * **[Mini MNIST Project ver. 1.0][3]**: A simple mini project to creat and test a deep learning model using MNIST data from Keras. 80:20 test split was done out of 60k dataset using the ***TensorFlow***. The model was created and tested using Google Colaboratory, GPU method. No optimization process was done because this was only meant to learn how to create a model. the loss vs. accuracy graph was created by running 20 epochs:
+
 <p align="center">
-  <img src="TensorFlow mini Project/epoch_train_val.png" width="55%" class="center">
-  </p>
+  <img src="TensorFlow_miniproj/epoch_train_val.png" width="100%" class="center">
+</p>
 
 #### *tools: scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy, Folium*
 * **[2017 911 Responses in Toronto][2]**: This project mainly focused on data visualization using location data provided from Toronto City Open Data. The data frame was reorganized and clustered based on the top 10 call reason for each intersection in downtown Toronto using ***K-mean Clustering***. Then, each data were visualized on the folium map. For the future reference, it will be great to see the top 5 fire stations recieved 911 calls and to show thier coverage within x km radius on the same map. 
