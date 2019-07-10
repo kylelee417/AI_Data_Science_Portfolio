@@ -33,4 +33,4 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 [1]:https://github.com/kylelee417/CollabProject/blob/master/project_notebook.ipynb
 [2]:https://github.com/kylelee417/Capstone-Project
-[3]:https://github.com/kylelee417/Data-Science_Portfolio/blob/master/tensorflow_miniproj.ipynb
+[3]:https://github.com/kylelee417/Data-Science_Portfolio/blob/master/TensorFlow_miniproj/tensorflow_miniproj.ipynb
