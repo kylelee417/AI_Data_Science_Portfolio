@@ -18,6 +18,13 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 ## Data Visualization Focused Projects
 
 * **[Wisconsin Breast Cancer Detection][4]**: 
+<p align="center">
+  <img src="Breast_Cancer/dtree1.png" width="55%" class="center">
+  <img src="Breast_Cancer/dtree2.png" width="35%" class="center">
+  <img src="Breast_Cancer/dtree3.png" width="65%" class="center">
+  <img src="Breast_Cancer/dtree4.png" width="55%" class="center">
+  </p>
+
 
 ## Mini Capstone Projects
 * **[Mini MNIST Project ver. 1.0][3]**: A simple mini project to creat and test a deep learning model using MNIST data from Keras. 80:20 test split was done out of 60k dataset using the ***TensorFlow***. The model was created and tested using Google Colaboratory, GPU method. No optimization process was done because this was only meant to learn how to create a model. the loss vs. accuracy graph was created by running 20 epochs:
@@ -38,3 +45,4 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 [1]:https://github.com/kylelee417/CollabProject/blob/master/project_notebook.ipynb
 [2]:https://github.com/kylelee417/Capstone-Project
 [3]:https://github.com/kylelee417/Data-Science_Portfolio/blob/master/TensorFlow_miniproj/tensorflow_miniproj.ipynb
+[4]:https://nbviewer.jupyter.org/github/kylelee417/Data-Science_Portfolio/blob/master/Breast_Cancer/breast_cancer.ipynb
