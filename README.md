@@ -14,6 +14,8 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
   <img src="Master's Program Admission/cm_LR.png" width="35%" class="center">
   <img src="Master's Program Admission/plot1.png" width="55%" class="center">
   </p>
+## Data Visualization Focused Projects
+* **[Wisconsin Breast Cancer Detection][4]**: 
 
 ## Mini Capstone Projects
 * **[Mini MNIST Project ver. 1.0][3]**: A simple mini project to creat and test a deep learning model using MNIST data from Keras. 80:20 test split was done out of 60k dataset using the ***TensorFlow***. The model was created and tested using Google Colaboratory, GPU method. No optimization process was done because this was only meant to learn how to create a model. the loss vs. accuracy graph was created by running 20 epochs:
