@@ -21,8 +21,8 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 <p align="center">
   <img src="Breast_Cancer/dtree1.png" width="55%" class="center">
   <img src="Breast_Cancer/dtree2.png" width="35%" class="center">
-  <img src="Breast_Cancer/dtree3.png" width="65%" class="center">
-  <img src="Breast_Cancer/dtree4.png" width="55%" class="center">
+  <img src="Breast_Cancer/dtree3.1.png" width="65%" class="center">
+  <img src="Breast_Cancer/dtree4.1.png" width="55%" class="center">
   </p>
 
 
