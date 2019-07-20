@@ -14,7 +14,9 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
   <img src="Master's Program Admission/cm_LR.png" width="35%" class="center">
   <img src="Master's Program Admission/plot1.png" width="55%" class="center">
   </p>
+  
 ## Data Visualization Focused Projects
+
 * **[Wisconsin Breast Cancer Detection][4]**: 
 
 ## Mini Capstone Projects
