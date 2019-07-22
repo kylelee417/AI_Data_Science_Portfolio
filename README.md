@@ -16,23 +16,33 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
   </p>
   
 ## Data Visualization Focused Projects
-
-* **[Wisconsin Breast Cancer Detection][4]**: Breast cancer is one of the well-known diseases for female, as well as for male, has been studied years. As far as a tumor type is concerned, early detection with a great precision and accuracy helps much better in developinsg a treating process for both patients and physicians. For this project, **decision tree** model was mainly used but in 3 different structures. 699 samples were used with 9 features to determine whether a sample is likely classified a binary target class as **Benign (non-invasive)** or **Malignant (invasive)** cancer type. 
+#### *tools required: scikit-learn, dtreeviz, graphviz, ipywidgets* 
+* **[Wisconsin Breast Cancer Detection ver. 1.0][4]**: Breast cancer is one of the well-known diseases for female, as well as for male, has been studied years. As far as a tumor type is concerned, early detection with a great precision and accuracy helps much better in developinsg a treating process for both patients and physicians. For this project, **decision tree** model was mainly used but in 3 different structures. 699 samples were used with 9 features to determine whether a sample is likely classified a binary target class as **Benign (non-invasive)** or **Malignant (invasive)** cancer type. 
 
 The Area Under the Curve (AUC) was used to measure the classifier's skill in ranking a set of patterns accornding to the degree to which they belong to the positive class. However, this model is not mainly focused on performance assessment or parameter tuning. It was primarily focused on the model visualization when the true prediction (**Benign type**) is maximized for better and easier understanding.
+
+I have found it gives eaiser interpretation using ***dtreeviz package*** than the graph created using ***graphviz***. **Random Forest** was used to overcome some overfitting problem in a single decision tree; however, the data set is too small to have comparable results. Another downside is, it does not give as much detailed interpretation as the decision tree classifier. I have also simply tried a regression tree model because the binary classification can be vary depending on the random values from each feature. I used the most 3 important feature outcomes from Random Forest; however, it did not visually show me a correlation among the features. Therefore, it definatley needs some optimization works or another approach like multivariate regression model.
+
+Acknowldegement:http://dkopczyk.quantee.co.uk/tree-based/
+
 
 
 
 <p align="center">
   <img src="Breast_Cancer/dtree1.png" width="55%" class="center">
   <img src="Breast_Cancer/dtree2.png" width="35%" class="center">
+  
+  graphiz - **left** ,    interactive decision tree - **right**
   <img src="Breast_Cancer/dtree3.1.png" width="65%" class="center">
+  dtreeviz-visualization
+  
   <img src="Breast_Cancer/dtree4.1.png" width="55%" class="center">
+  Bivariate Regression tree in 3D
   </p>
 
 
 ## Mini Capstone Projects
-* **[Mini MNIST Project ver. 1.0][3]**: A simple mini project to creat and test a deep learning model using MNIST data from Keras. 80:20 test split was done out of 60k dataset using the ***TensorFlow***. The model was created and tested using Google Colaboratory, GPU method. No optimization process was done because this was only meant to learn how to create a model. the loss vs. accuracy graph was created by running 20 epochs:
+* **[Mini MNIST Project ver. 1.0][3]**: A simple mini project to create and test a deep learning model using MNIST data from Keras. 80:20 test split was done out of 60k dataset using the ***TensorFlow***. The model was created and tested using Google Colaboratory, GPU method. No optimization process was done because this was only meant to learn how to create a model. the loss vs. accuracy graph was created by running 20 epochs:
 
 <p align="center">
   <img src="TensorFlow_miniproj/epoch_train_val.png" width="100%" class="center">
