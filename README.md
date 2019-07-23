@@ -16,7 +16,8 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
   </p>
   
 ## Data Visualization Focused Projects
-#### *tools required: scikit-learn, dtreeviz, graphviz, ipywidgets* 
+#### *tools required: scikit-learn, dtreeviz, graphviz, ipywidgets*
+##### Unfortunately, ipywidgets do not render on Github or nbviewer. You can still view it through Google Colab or run locally to get the access
 * **[Wisconsin Breast Cancer Detection ver. 1.0][4]**: Breast cancer is one of the well-known diseases for female, as well as for male, has been studied years. As far as a tumor type is concerned, early detection with a great precision and accuracy helps much better in developinsg a treating process for both patients and physicians. For this project, **decision tree** model was mainly used but in 3 different structures. 699 samples were used with 9 features to determine whether a sample is likely classified a binary target class as **Benign (non-invasive)** or **Malignant (invasive)** cancer type. 
 
 The Area Under the Curve (AUC) was used to measure the classifier's skill in ranking a set of patterns accornding to the degree to which they belong to the positive class. However, this model is not mainly focused on performance assessment or parameter tuning. It was primarily focused on the model visualization when the true prediction (**Benign type**) is maximized for better and easier understanding.
@@ -38,8 +39,8 @@ I have found it gives eaiser interpretation using ***dtreeviz package*** than th
   <img src="Breast_Cancer/dtree3.1.png" width="65%" class="center">
   **dtreeviz-visualization**
   
-  <img src="Breast_Cancer/dtree4.1.png" width="55%" class="center">
-  **Bivariate Regression tree in 3D**
+  <img src="Breast_Cancer/dtree4.1.png" width="55%" class="center"> **Bivariate Regression tree in 3D**
+  
   </p>
 
 
