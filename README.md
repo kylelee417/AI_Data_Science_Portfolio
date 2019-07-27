@@ -6,7 +6,10 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 ## Projects
 
-#### *tools: Keras, TensorFlow-gpu, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy*
+#### *tools: Keras, TensorFlow-GPU, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy*
+* **[Chest X-Ray v.1.0][8]**: A x_ray dataset was used from [Chest X-Ray Images (Pneumonia)][9] from Kaggle. The main goal is building a model for a binary detction in order to defferentiate whether a test x-ray image was **Normal** or **Pneumonia**. A project to learn, build, and predict image data through ***Convolutional Neural Network (CNN)*** using Keras VGG16 (first model) and also comparing the prediction with the first model and pre-weighted **VGG16** ***(Transfer-Learning)*** model. 
+
+Each model was run 100 epochs with sigmoid activation fuction. This first version is to execute the model before any fine-tuning. 
 
 * **[Master's Program Admission][1]**: Designed a customized ***Logistic Regression and SVM*** model and achieved 90% accuracy in classifying whether an aplicant would likely be admitted or not admitted using 7 different features. ***PCA*** was also performed during the EDA process; however, the information loss was more than 20%. Therefore, it was found that using a simple logictic regression or classification model such as SVM would give the best fit model considering the dataset and variables were small.
 
@@ -67,3 +70,4 @@ I have found it gives eaiser interpretation using ***dtreeviz package*** than th
 [5]:https://towardsdatascience.com/interactive-visualization-of-decision-trees-with-jupyter-widgets-ca15dd312084
 [6]:https://ipywidgets.readthedocs.io/en/stable/
 [7]:http://dkopczyk.quantee.co.uk/tree-based/
+[9]:https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
