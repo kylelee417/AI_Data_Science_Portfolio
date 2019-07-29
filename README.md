@@ -61,6 +61,14 @@ I have found it gives eaiser interpretation using ***dtreeviz package*** than th
   <img src="Breast_Cancer/dtree4.1.png" width="55%" class="center"> **Bivariate Regression tree in 3D**
   </p>
 
+#### *tools: scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy, Folium*
+* **[2017 911 Responses in Toronto][2]**: This project mainly focused on data visualization using location data provided from Toronto City Open Data. The data frame was reorganized and clustered based on the top 10 call reason for each intersection in downtown Toronto using ***K-mean Clustering***. Then, each data were visualized on the folium map. For the future reference, it will be great to see the top 5 fire stations recieved 911 calls and to show thier coverage within x km radius on the same map. 
+
+<p align="center">
+  <img src="2017 911 Responses Toronto/toronto map.png" width="55%" class="center">
+  <img src="2017 911 Responses Toronto/map legend.png" width="45%" class="center">
+</p>
+
 
 ## Mini Capstone Projects
 * **[Mini MNIST Project ver. 1.0][3]**: A simple mini project to create and test a deep learning model using MNIST data from Keras. 80:20 test split was done out of 60k dataset using the ***TensorFlow***. The model was created and tested using Google Colaboratory, GPU method. No optimization process was done because this was only meant to learn how to create a model. the loss vs. accuracy graph was created by running 20 epochs:
@@ -69,13 +77,6 @@ I have found it gives eaiser interpretation using ***dtreeviz package*** than th
   <img src="TensorFlow_miniproj/epoch_train_val.png" width="100%" class="center">
 </p>
 
-#### *tools: scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy, Folium*
-* **[2017 911 Responses in Toronto][2]**: This project mainly focused on data visualization using location data provided from Toronto City Open Data. The data frame was reorganized and clustered based on the top 10 call reason for each intersection in downtown Toronto using ***K-mean Clustering***. Then, each data were visualized on the folium map. For the future reference, it will be great to see the top 5 fire stations recieved 911 calls and to show thier coverage within x km radius on the same map. 
-
-<p align="center">
-  <img src="2017 911 Responses Toronto/toronto map.png" width="55%" class="center">
-  <img src="2017 911 Responses Toronto/map legend.png" width="45%" class="center">
-  </p>
 
 
 [1]:https://github.com/kylelee417/CollabProject/blob/master/project_notebook.ipynb
