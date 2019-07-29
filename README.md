@@ -23,7 +23,7 @@ Detection Plots:
   <img src="Chest X-Ray_Pneumonia/detection.png" width="100%" class="center">
   </p>
  
-Considering the data set was not balanced (3x more pneumonia samples), and the given validation set (only 16) was so small, the first model has shown a very poor performance compared to the transfered VGG16 model. For the future working instruction, definately image augmentation would show better a performance in loss, preventing overfitting. As far as the main goal of this project is concerned, focusing fine-tuning based on the other output metrics, such as **recall** and **precision**, would help building a better model.  
+Considering the data set was not balanced (appx. 3x more pneumonia samples), and the given validation set was small, the first model has shown a very poor performance compared to the transfered VGG16 model. For the future working instruction, definately image augmentation would show better a performance in loss, preventing overfitting. Also we can control the class_weight in fit_generator fuction to overcome the numbers of data set unbalance between noraml and pneumonia. As far as the main goal of this project is concerned, focusing fine-tuning based on the other output metrics, such as **recall** and **precision**, would help building a better model.  
 
 
 
