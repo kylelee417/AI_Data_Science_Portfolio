@@ -9,12 +9,12 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 #### *tools: Keras, TensorFlow-GPU, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy*
 * **[Chest X-Ray v.1.0][8]**: A x_ray dataset was used from [Chest X-Ray Images (Pneumonia)][9] from Kaggle. The main goal is building a model for a binary detction in order to defferentiate whether a test x-ray image was **Normal** or **Pneumonia**. A project to learn, build, and predict image data through ***Convolutional Neural Network (CNN)*** using Keras VGG16 (first model) and also comparing the prediction with the first model and pre-weighted **VGG16** ***(Transfer-Learning)*** model. All other resoucres that were not cited is also listed in "resource_modules.py."
 
-Each model was run 200 epochs with softmax activation fuction for 2 categorical outputs. This first version was to execute the model before any fine-tuning:
+Each model was run 200 epochs with softmax activation fuction for 2 categorical outputs. This first version was to execute the model before any fine-tuning: **The model was overfitted due to relatively lower test acc. compared to the validation acc. and high loss.** 
 <p align="center">
   <img src="Chest X-Ray_Pneumonia/First_model.png" width="100%" class="center">
  
 
-Then, Transfer-learning from pre-weighted VGG16: No improvement after 25 epochs and overfitting.
+Then, Transfer-learning from pre-weighted VGG16: **No improvement after 25 epochs and overfitting, but it is better than the first model in overall.** 
 <p align="center">
   <img src="Chest X-Ray_Pneumonia/model_vgg16.png" width="100%" class="center">
 
