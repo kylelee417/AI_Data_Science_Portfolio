@@ -15,7 +15,28 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 For future direction to this project would be training the model with a larger dataset would give a better outcome.  After the fine training, we could manually locate the latent vectors to find specific styles so that the user can apply different hairstyles on the same face input.
 
+<p align="center">
+  <img src="VAE/testset.png" width="80%" class="center">
 
+The autoencoder model was able to catch general outlines of the original image with a 53% loss. VAE model was supposed to predict input images as much as close to the input image using a trained latent vector.  
+
+<p align="center">
+  <img src="VAE/newimg.png" width="80%" class="center">
+
+Compared to the autoencoder, the vae model was able to generate a new image regardless of noise or bald input images.  
+
+Loss Plots:
+<p align="center">
+  <img src="VAE/loss.png" width="100%" class="center">
+
+As you can see, both models were highly under fitted after 300 epochs. The autoencoder was somewhat showing a trend to be less under fitted after further epochs, however, it is not an efficient process. For the VAE model, better optimizations in hyperparameters are required as it did not show improvements during the whole training process.
+  
+<p align="center">
+  <img src="VAE/generated.png" width="70%" class="center">  
+
+
+Now let's look at the newly generated 10 x 10 images from the decoder model. Even though there was a high 62% loss, there were noticeable changes in the hair portion as the sampling points shift to the right.  
+  </p>
 
 
 * **[Chest X-Ray v.1.0][8]**: A x_ray dataset was used from Kaggle [Chest X-Ray Images (Pneumonia)][9]. The main goal is building a model for a binary detction in order to defferentiate whether a test x-ray image was **Normal** or **Pneumonia**. A project to learn, build, and predict image data through ***Convolutional Neural Network (CNN)*** using Keras VGG16 (first model) and also comparing the prediction with the first model and pre-weighted **VGG16** ***(Transfer-Learning)*** model. All other resoucres that were not cited is also listed in "resource_modules.py." 
@@ -44,6 +65,8 @@ Considering the data set was not balanced (appx. 3x more pneumonia samples) and 
   <img src="Master's Program Admission/cm_LR.png" width="35%" class="center">
   <img src="Master's Program Admission/plot1.png" width="55%" class="center">
   </p>
+
+For more information understanding theories behind VAE, refer to a well summarized [Jeremy Jordan][11]'s blog  
 
 ## Data Visualization Focused Projects
 #### *tools required: scikit-learn, dtreeviz, graphviz, ipywidgets*
@@ -99,3 +122,5 @@ I have found it gives eaiser interpretation using ***dtreeviz package*** than th
 [7]:http://dkopczyk.quantee.co.uk/tree-based/
 [8]:https://github.com/kylelee417/Data-Science_Portfolio/blob/master/Chest%20X-Ray_Pneumonia/chest_pneumonia.ipynb
 [9]:https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+[10]:https://github.com/kylelee417/Data-Science_Portfolio/blob/master/VAE/VAE%20V02.ipynb
+[11]:https://www.jeremyjordan.me/variational-autoencoders/
