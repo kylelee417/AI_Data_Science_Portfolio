@@ -7,6 +7,17 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 ## Projects
 
 #### *tools: Keras, TensorFlow-GPU, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy*
+* **[Variational Autoencoder - Hairstyle][10]**: This is my introductory Variational Autoencoder (VAE) model project to build a basic vae model to randomly generate different hairstyle after training the model with various front-view men hairstyle dataset. The main goal was to observe extraordinary hairstyle by sampling random latent attributes from the latent space. Hopefully, those new images of hairstyle could inspire designers or people to try a new style and individual experiencing hair loss process could preview themselves with various hairstyling after some treatment for future applications. Keras with TensorFlow backend was used to build the VAE model and an autoencoder model as well on Google Colab Jupyter notebook base. Several limitations were encountered when those models were built:
+
+1. very limited train and test data - each dataset was created using **google_images_download** and images were directly saved on mounted google drive. very small dataset (~500 train set and ~90 test) was used to train the full vae model after mannually eliminating variables (i.e. facial orientation, faces with glasses, etc.).
+2. low pixel size - 96 x 96 was used in this project. Pixels lower or higher than 96 made it very difficult building the model with deeper layers or the training was not efficient. 
+3. very underfitted model - combination of #1 and #2 resulted in 53% and 61% loss performance of the autoencoder and vae models. 
+
+For future direction to this project would be training the model with a larger dataset would give a better outcome.  After the fine training, we could manually locate the latent vectors to find specific styles so that the user can apply different hairstyles on the same face input.
+
+
+
+
 * **[Chest X-Ray v.1.0][8]**: A x_ray dataset was used from Kaggle [Chest X-Ray Images (Pneumonia)][9]. The main goal is building a model for a binary detction in order to defferentiate whether a test x-ray image was **Normal** or **Pneumonia**. A project to learn, build, and predict image data through ***Convolutional Neural Network (CNN)*** using Keras VGG16 (first model) and also comparing the prediction with the first model and pre-weighted **VGG16** ***(Transfer-Learning)*** model. All other resoucres that were not cited is also listed in "resource_modules.py." 
 
 Each model was run 200 epochs with softmax activation fuction for 2 categorical outputs. This first version was to execute the model before any fine-tuning: **The model was overfitted due to relatively lower test acc. compared to the validation acc. and high loss.** 
