@@ -7,10 +7,17 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 ## Projects
 
 #### *tools: Keras, TensorFlow-GPU, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy*
-* **[VAE-Hairsyle V.02][11]**: In process, deeper layers, flow-from-directory
+* **[VAE-Hairsyle V.02][12]**: Both *hair and bald* images were trained in one model. Latent dimensions was increased from 2 to 128 in order to obtain more information in terms of feature distribution. **Keras-Flow From Directory** was used to build deeper layers (up to 512 filter numbers); however, more optimizations are required for better image reconstruction. The next step will be obtaining *hair* latent vector by subtracting located *bald* latent vectors from *hair inputs* and apply the *hair vectors* on new *bald inputs*.
+
+<p align="center">
+  <img src="VAE/VAE2/loss.png" width="35%" class="center">
+  <img src="VAE/VAE2/train_output.png" width="60%" class="center">
+</p>
+
 * **[Variational Autoencoder(VAE)- Hairstyle V.01][10]**: This is my introductory Variational Autoencoder (VAE) model project to build a basic vae model to randomly generate different hairstyle after training the model with various front-view men hairstyle dataset. The main goal was to observe extraordinary hairstyle by sampling random latent attributes from the latent space. Hopefully, those new images of hairstyle could inspire designers or people to try a new style and individual experiencing hair loss process could preview themselves with various hairstyling after some treatment for future applications. Keras with TensorFlow backend was used to build the VAE model and an autoencoder model as well on Google Colab Jupyter notebook base. Several limitations were encountered when those models were built:
 
 1. very limited train and test data - each dataset was created using **google_images_download** and images were directly saved on mounted google drive. very small dataset (~500 train set and ~90 test) was used to train the full vae model after mannually eliminating variables (i.e. facial orientation, faces with glasses, etc.).
+
 2. low pixel size - 96 x 96 was used in this project. Pixels lower or higher than 96 made it very difficult building the model with deeper layers or the training was not efficient. 
 3. very underfitted model - combination of #1 and #2 resulted in 53% and 61% loss performance of the autoencoder and vae models. 
 
@@ -125,3 +132,4 @@ I have found it gives eaiser interpretation using ***dtreeviz package*** than th
 [9]:https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 [10]:https://github.com/kylelee417/Data-Science_Portfolio/blob/master/VAE/VAE%20V02.ipynb
 [11]:https://www.jeremyjordan.me/variational-autoencoders/
+[12]:https://github.com/kylelee417/Data-Science_Portfolio/blob/master/VAE/VAE2/VAE%20V02%20updated.ipynb
