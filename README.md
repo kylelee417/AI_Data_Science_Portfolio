@@ -1,4 +1,4 @@
-# Data Science Project Portfolio. 
+# Data Science Project Portfolio.  
 
 This repository presents a collection of *personal Artificial Intelligence and Data Science projects* in the form of iPython Notebook. All data set were retrieved from public sources and cited. The topics and datasets being explored in this portfolio are chosen based on my own interest, the primary focus of the projects is to employ various approaches and tools of data analysis/modelling to extract buried stories of the datasets on hand. This is an on-going portfolio which will more focus on deep learning project using GPU. 
 
