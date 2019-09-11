@@ -44,7 +44,7 @@ As you can see, both models were highly under fitted after 300 epochs. The autoe
   <img src="VAE/generated.png" width="60%" class="center">  
 
 
-Now let's look at the newly generated 10 x 10 images from the decoder model. Even though there was a high 62% loss, there were noticeable changes in the hair portion as the sampling points shift to the right.  
+Now let's look at the newly generated 10 x 10 images from the decoder model in 2 laten dimensions. Even though there was a high 62% loss, there were noticeable changes in the hair portion as the sampling points shift to the right.  
 For more information understanding theories behind VAE, refer to a well summarized [Jeremy Jordan][11]'s blog. 
 </p>
 
