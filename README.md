@@ -7,7 +7,9 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 ## Projects
 
 #### *tools: Keras, TensorFlow-GPU, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy*
-* **[Asphalt Crack Sematic Segmentation][13]**: In progress ...
+* **[Asphalt Crack Sematic Segmentation][13]**: A simple binary segmentation was practiced using the [Unet Model][14]. **[Supervise.ly][15]** (online-segentation platform) was used to create mask the cracked areas on input images. Augmentations were also done using the platform as it transform the input images (.jason) to .png+masked output images.
+
+
 * **[VAE-Hairsyle V.02][12]**: Both *hair and bald* images were trained in one model. Latent dimension was increased from 2 to 128 in order to obtain more information in terms of feature distribution. **Keras-Flow From Directory** was used to build deeper layers (up to 512 filter numbers) and resize the input shape with larger pixels (112 x 112 x 1); however, more optimizations are required for better image reconstruction. The next step will be obtaining *hair* latent vector by subtracting located *bald* latent vectors from *hair inputs* and apply the *hair vectors* on new *bald inputs* to have hairs on same face.
 
 <p align="center">
@@ -131,6 +133,9 @@ I have found it gives eaiser interpretation using ***dtreeviz package*** than th
 [7]:http://dkopczyk.quantee.co.uk/tree-based/
 [8]:https://github.com/kylelee417/Data-Science_Portfolio/blob/master/Chest%20X-Ray_Pneumonia/chest_pneumonia.ipynb
 [9]:https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
-[10]:https://github.com/kylelee417/Data-Science_Portfolio/blob/master/VAE/VAE%20V02.ipynb
+[10]:https://github.com/kylelee417/Data-Schttps://supervise.ly/ience_Portfolio/blob/master/VAE/VAE%20V02.ipynb
 [11]:https://www.jeremyjordan.me/variational-autoencoders/
 [12]:https://github.com/kylelee417/Data-Science_Portfolio/blob/master/VAE/VAE2/VAE%20V02%20updated.ipynb
+[13]:https://github.com/kylelee417/Asphalt_Crack_Segmentation/blob/master/Asphalt_Segmentation224.ipynb
+[14]:https://github.com/zhixuhao/unet/blob/master/model.py
+[15]:https://supervise.ly/
