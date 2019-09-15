@@ -10,9 +10,9 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 * **[Asphalt Crack Sematic Segmentation][13]**: A simple binary segmentation was practiced using the [Unet Model][14]. **[Supervise.ly][15]** (online-segmentation platform) was used to create mask the cracked areas on input images. Augmentations were also done using the platform as it transform the input images (.jason) to .png+masked output images. 95.5%~95.6% accuracy was obtained after 50 epochs training using 224x224 pixels. 
 <p align="center">
   <img src="asphalt_seg/masked.png" width="100%" class="center">
-  </p>
-**Acknowledgement:**
-A, Jayanth Balaji; G, Thiru Balaji; M S, Dinesh; Nair, Binoy; D. S, Harish Ram (2019), “Asphalt Crack Dataset”, Mendeley Data, v2 http://dx.doi.org/10.17632/xnzhj3x8v4.2
+</p>
+
+Acknowledgement: A, Jayanth Balaji; G, Thiru Balaji; M S, Dinesh; Nair, Binoy; D. S, Harish Ram (2019), “Asphalt Crack Dataset”, Mendeley Data, v2 http://dx.doi.org/10.17632/xnzhj3x8v4.2
 
 
 * **[VAE-Hairsyle V.02][12]**: Both *hair and bald* images were trained in one model. Latent dimension was increased from 2 to 128 in order to obtain more information in terms of feature distribution. **Keras-Flow From Directory** was used to build deeper layers (up to 512 filter numbers) and resize the input shape with larger pixels (112 x 112 x 1); however, more optimizations are required for better image reconstruction. The next step will be obtaining *hair* latent vector by subtracting located *bald* latent vectors from *hair inputs* and apply the *hair vectors* on new *bald inputs* to have hairs on same face.
