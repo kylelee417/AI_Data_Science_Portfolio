@@ -7,7 +7,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 ## Projects
 
 #### *tools: Keras, TensorFlow-GPU, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy*
-* **[Asphalt Crack Semantic Segmentation][13]**: A simple binary segmentation was practiced using the [Unet Model][14]. **[Supervise.ly][15]** (online-segmentation platform) was used to create mask the cracked areas on input images. Augmentations were also done using the platform as it transform the input images (.jason) to .png+masked output images. 95.5%~95.6% accuracy was obtained after 50 epochs training using 224x224 pixels. 
+* **[Asphalt Crack Semantic Segmentation][13]**: A simple binary segmentation was practiced using the [Unet Model][14]. **[Supervise.ly][15]** (online-segmentation platform) was used to create masks on the cracked areas of input images. Augmentations were also done using the platform as it transform the input images (.jason) to .png+masked output images. 95.5%~95.6% accuracy was obtained after 50 epochs training using 224x224 pixels. 
 <p align="center">
   <img src="asphalt_seg/masked.png" width="100%" class="center">
 </p>
