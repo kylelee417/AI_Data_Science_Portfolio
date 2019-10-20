@@ -13,7 +13,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 </UL>
 <LI>Data Science - Machine Learning
 <UL>
-<LI>K-mean Clustering - 911 Responses in Toronto Downtown
+<LI> **[K-mean Clustering - 911 Responses in Toronto Downtown][14]**:
 <LI>List item 2
 </UL>
 </OL>
