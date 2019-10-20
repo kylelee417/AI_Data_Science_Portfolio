@@ -4,8 +4,9 @@ This repository presents a collection of *personal Artificial Intelligence and D
 
 Any questions or feedback regarding this portfolio can be kindly directed to the author, Kyle Lee, at _***kylelee417@gmail.com***_.
 ## Current Project Lists
-*
-*
+* Artificial Intelligence
+
+* Data Science - Machine Learning
 *
 
 ## Projects
