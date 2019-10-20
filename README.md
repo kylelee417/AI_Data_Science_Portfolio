@@ -9,7 +9,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 > Artificial Intelligence: Deep Learning
 - [**Asphalt Crack Segmentation**](#asphalt-crack-segmentation)
-- [**Variational Autoencoder: Hairstyle**](#vae-hairstyle-v.02)
+- [**Variational Autoencoder: Hairstyle**](#vae-hairstyle-v02)
 - [**CNN & Transfer Learning: Chest X-ray**](#chest-x-ray-v.01)
 
 > Data Science: Machine Learning
@@ -31,7 +31,7 @@ A simple binary segmentation was practiced using the [Unet Model][14]. **[Superv
 Acknowledgement: A, Jayanth Balaji; G, Thiru Balaji; M S, Dinesh; Nair, Binoy; D. S, Harish Ram (2019), “Asphalt Crack Dataset”, Mendeley Data, v2 http://dx.doi.org/10.17632/xnzhj3x8v4.2
 
 
-#### **VAE-Hairsyle V.02][12]**: Both *hair and bald* images were trained in one model. Latent dimension was increased from 2 to 128 in order to obtain more information in terms of feature distribution. **Keras-Flow From Directory** was used to build deeper layers (up to 512 filter numbers) and resize the input shape with larger pixels (112 x 112 x 1); however, more optimizations are required for better image reconstruction. The next step will be obtaining *hair* latent vector by subtracting located *bald* latent vectors from *hair inputs* and apply the *hair vectors* on new *bald inputs* to have hairs on same face.
+#### **VAE-Hairsyle V02][12]**: Both *hair and bald* images were trained in one model. Latent dimension was increased from 2 to 128 in order to obtain more information in terms of feature distribution. **Keras-Flow From Directory** was used to build deeper layers (up to 512 filter numbers) and resize the input shape with larger pixels (112 x 112 x 1); however, more optimizations are required for better image reconstruction. The next step will be obtaining *hair* latent vector by subtracting located *bald* latent vectors from *hair inputs* and apply the *hair vectors* on new *bald inputs* to have hairs on same face.
 
 <p align="center">
   <img src="VAE/VAE2/loss.png" width="35%" class="center">
