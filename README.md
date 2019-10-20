@@ -9,12 +9,12 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 > Artificial Intelligence: Deep Learning
 - [**Asphalt Crack Segmentation**](#asphalt-crack-segmentation)
-- [**Variational Autoencoder: Hairstyle**](#vae-hairstyle-v02)
+- [**Variational Autoencoder: Hairstyle**](#vae-hairstyle-v-02)
 - [**CNN & Transfer Learning: Chest X-ray**](#chest-x-ray)
 
 > Data Science: Machine Learning
 * [**911 Responses in Toronto**](#911-responses-in-toronto-2017)
-- [**Regression & SVM: Master's Program Addmission**](#master's-program-admission)
+- [**Regression & SVM: Master's Program Addmission**](#master-s-program-admission)
 
 > Data Visualization Focused
 * [**Decision Tree Libraries: Brest Cancer Detection**](#wisconsin-breast-cancer-detection)
@@ -22,7 +22,8 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 ## Projects
 
 #### *tools: Keras, TensorFlow-GPU, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy*
-#### **[Asphalt Crack Segmentation][13]**
+
+### [Asphalt Crack Segmentation][13]
 
 A simple binary segmentation was practiced using the [Unet Model][14]. **[Supervise.ly][15]** (online-segmentation platform) was used to create masks on the cracked areas of input images. Augmentations were also done using the platform as it transformed from the input images (.jason) to output images (.png + masked). 95.5%~95.6% accuracy was obtained after 50 epochs training using 224x224 pixels. 
 <p align="center"> 
@@ -31,8 +32,7 @@ A simple binary segmentation was practiced using the [Unet Model][14]. **[Superv
 
 Acknowledgement: A, Jayanth Balaji; G, Thiru Balaji; M S, Dinesh; Nair, Binoy; D. S, Harish Ram (2019), “Asphalt Crack Dataset”, Mendeley Data, v2 http://dx.doi.org/10.17632/xnzhj3x8v4.2
 
-
-#### **[VAE Hairsyle V02][12]**
+### [VAE Hairstyle V.02][12]
 
 Both *hair and bald* images were trained in one model. Latent dimension was increased from 2 to 128 in order to obtain more information in terms of feature distribution. **Keras-Flow From Directory** was used to build deeper layers (up to 512 filter numbers) and resize the input shape with larger pixels (112 x 112 x 1); however, more optimizations are required for better image reconstruction. The next step will be obtaining *hair* latent vector by subtracting located *bald* latent vectors from *hair inputs* and apply the *hair vectors* on new *bald inputs* to have hairs on same face.
 
@@ -41,7 +41,7 @@ Both *hair and bald* images were trained in one model. Latent dimension was incr
   <img src="VAE/VAE2/train_output.png" width="60%" class="center">
 </p>
 
-#### **[Chest X-Ray][8]**
+### [Chest X-Ray][8]
 
 A x_ray dataset was used from Kaggle [Chest X-Ray Images (Pneumonia)][9]. The main goal is building a model for a binary detction in order to defferentiate whether a test x-ray image was **Normal** or **Pneumonia**. A project to learn, build, and predict image data through ***Convolutional Neural Network (CNN)*** using Keras VGG16 (first model) and also comparing the prediction with the first model and pre-weighted **VGG16** ***(Transfer-Learning)*** model. All other resoucres that were not cited is also listed in "resource_modules.py." 
 
@@ -63,7 +63,7 @@ Considering the data set was not balanced (appx. 3x more pneumonia samples) and 
 
 
 
-#### **[Master's Program Admission][1]**
+### [Master's Program Admission][1]
 
 Designed a customized ***Logistic Regression and SVM*** model and achieved 90% accuracy in classifying whether an aplicant would likely be admitted or not admitted using 7 different features. ***PCA*** was also performed during the EDA process; however, the information loss was more than 20%. Therefore, it was found that using a simple logictic regression or classification model such as SVM would give the best fit model considering the dataset and variables were small.
 
@@ -78,7 +78,7 @@ Designed a customized ***Logistic Regression and SVM*** model and achieved 90% a
 #### *tools required: scikit-learn, dtreeviz, graphviz, ipywidgets*
 ##### Unfortunately, ipywidgets do not render on Github or nbviewer. You can still view it through Google Colab or run locally to get the access
 
-#### **[Wisconsin Breast Cancer Detection][4]**
+### [Wisconsin Breast Cancer Detection][4]
 
 Breast cancer is one of the well-known diseases for female, as well as for male, has been studied years. As far as a tumor type is concerned, early detection with a great precision and accuracy helps much better in developinsg a treating process for both patients and physicians. For this project, **decision tree** model was mainly used but in 3 different structures. 699 samples were used with 9 features to determine whether a sample is likely classified a binary target class as **Benign (non-invasive)** or **Malignant (invasive)** cancer type. 
 
@@ -106,7 +106,7 @@ I have found it gives eaiser interpretation using ***dtreeviz package*** than th
 
 #### *tools: scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy, Folium*
 
-#### **[911 Responses in Toronto 2017][2]**
+### [911 Responses in Toronto 2017][2]
 
 This project mainly focused on data visualization using location data provided from Toronto City Open Data. The data frame was reorganized and clustered based on the top 10 call reason for each intersection in downtown Toronto using ***K-mean Clustering***. Then, each data were visualized on the folium map. For the future reference, it will be great to see the top 5 fire stations recieved 911 calls and to show thier coverage within x km radius on the same map. 
 
