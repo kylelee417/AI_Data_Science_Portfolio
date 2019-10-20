@@ -8,6 +8,8 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 > Artificial Intelligence: Deep Learning
 + [**Asphalt Crack Segmentation**](#asphalt-crack-segmentation)
+
+> Data Science: Machine Learning
 * [**911 Responses in Toronto**](#2017-911-responses-in-toronto)
 
 ## Projects
@@ -89,7 +91,7 @@ I have found it gives eaiser interpretation using ***dtreeviz package*** than th
 
 #### *tools: scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy, Folium*
 
-[2017 911 Responses in Toronto][2]
+####[2017 911 Responses in Toronto][2]
 
 This project mainly focused on data visualization using location data provided from Toronto City Open Data. The data frame was reorganized and clustered based on the top 10 call reason for each intersection in downtown Toronto using ***K-mean Clustering***. Then, each data were visualized on the folium map. For the future reference, it will be great to see the top 5 fire stations recieved 911 calls and to show thier coverage within x km radius on the same map. 
 
