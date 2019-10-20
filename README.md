@@ -5,23 +5,7 @@ This repository presents a collection of *personal Artificial Intelligence and D
 Any questions or feedback regarding this portfolio can be kindly directed to the author, Kyle Lee, at _***kylelee417@gmail.com***_.
 ## Current Project Lists
 
-<OL>
-<LI>Artificial Intelligence - Deep Learning: Computer Vision
-<UL>
-<LI><dt>[**Asphalt Crack Segmentation](#asphalt-crack-segmentation)</dt>
-<LI>List item 2
-</UL>
-<LI>Data Science - Machine Learning
-<UL>
-<LI>
-<dl>
-<dt>[**K-mean Clustering: 911 Responses in Toronto Downtown**](#2017-911-responses-in-Toronto)
-</dt>
-<dd><p>Folium map, location data</p></dd>
-</dl>
-<LI>List item 2
-</UL>
-</OL>
+* [**Asphalt Crack Segmentation**](#asphalt-crack-segmentation)
 
 ## Projects
 
