@@ -7,7 +7,20 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 * Artificial Intelligence
 
 * Data Science - Machine Learning
-*
+
+
+<OL TYPE="square">
+<LI>Main Heading
+<UL>
+<LI>List item 1
+<LI>List item 2
+</UL>
+<LI>Secondary Heading
+<UL>
+<LI>List item 1
+<LI>List item 2
+</UL>
+</OL>
 
 ## Projects
 
