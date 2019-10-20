@@ -5,7 +5,13 @@ This repository presents a collection of *personal Artificial Intelligence and D
 Any questions or feedback regarding this portfolio can be kindly directed to the author, Kyle Lee, at _***kylelee417@gmail.com***_.
 ## Current Project Lists
 
-* [**Asphalt Crack Segmentation**](#asphalt-crack-segmentation)
+<UL>
+[**Asphalt Crack Segmentation**](#asphalt-crack-segmentation)
+ 
+This article, from thesitewizard.com, describes how you can create hanging indents on your web pages using CSS and HTML.
+</UL>
+
+[**Asphalt Crack Segmentation**](#asphalt-crack-segmentation)
 * [**911 Responses in Toronto**](#2017-911-responses-in-toronto)
 
 ## Projects
