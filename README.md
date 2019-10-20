@@ -16,7 +16,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 <LI>
 <dl>
 <dt><a href="https://github.com/kylelee417/Capstone-Project">K-mean Clustering: 911 Responses in Toronto Downtown</a></dt>
-<dd><p>This article, from thesitewizard.com, describes how you can create hanging indents on your web pages using CSS and HTML.</p></dd>
+<dd><p>Folium map, location data</p></dd>
 </dl>
 <LI>List item 2
 </UL>
