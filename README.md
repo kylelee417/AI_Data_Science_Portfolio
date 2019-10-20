@@ -47,17 +47,14 @@ Each model was run 200 epochs with softmax activation fuction for 2 categorical 
 <p align="center">
   <img src="Chest X-Ray_Pneumonia/First_model.png" width="100%" class="center">
  
-
 Then, Transfer-learning from pre-weighted VGG16: **No improvement after 25 epochs and overfitting, but it is better than the first model in overall.** 
 <p align="center">
   <img src="Chest X-Ray_Pneumonia/model_vgg16.png" width="100%" class="center">
 
-Detection Plots:
+**Detection Plots:**
 <p align="center">
   <img src="Chest X-Ray_Pneumonia/detection.png" width="100%" class="center">
 </p>
- 
-Considering the data set was not balanced (appx. 3x more pneumonia samples) and the given validation set was small, the first model has shown a very poor performance compared to the transfered VGG16 model. Oirginal validation data set had 16 samples total. Increasing the data volume would not completely solve the problem as far as the distribution of the samples were not considered the same among the three data sets. Therefore, there could be no improvement either in validation or test evaluation. Precision and recall matrics should be used to determine the model performance. For the future working instruction, definately image augmentation would show better a performance in loss, preventing overfitting. Also we can control the class_weight in fit_generator fuction to overcome the numbers of data set unbalance between noraml and pneumonia. As far as the main goal of this project is concerned, focusing fine-tuning based on the other output metrics, such as **recall** and **precision**, would help building a better model.  
 
 ### [Master's Program Admission][1]
 
