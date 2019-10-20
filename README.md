@@ -13,7 +13,11 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 </UL>
 <LI>Data Science - Machine Learning
 <UL>
-<LI> **[K-mean Clustering - 911 Responses in Toronto Downtown][14]**:
+<LI>
+<dl>
+<dt><a href="https://github.com/kylelee417/Capstone-Project">K-mean Clustering: 911 Responses in Toronto Downtown</a></dt>
+<dd><p>This article, from thesitewizard.com, describes how you can create hanging indents on your web pages using CSS and HTML.</p></dd>
+</dl>
 <LI>List item 2
 </UL>
 </OL>
