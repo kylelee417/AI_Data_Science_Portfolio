@@ -63,7 +63,7 @@ Considering the data set was not balanced (appx. 3x more pneumonia samples) and 
 
 
 
-#### [Master's Program Admission][1]**
+#### **[Master's Program Admission][1]**
 
 Designed a customized ***Logistic Regression and SVM*** model and achieved 90% accuracy in classifying whether an aplicant would likely be admitted or not admitted using 7 different features. ***PCA*** was also performed during the EDA process; however, the information loss was more than 20%. Therefore, it was found that using a simple logictic regression or classification model such as SVM would give the best fit model considering the dataset and variables were small.
 
@@ -78,7 +78,7 @@ Designed a customized ***Logistic Regression and SVM*** model and achieved 90% a
 #### *tools required: scikit-learn, dtreeviz, graphviz, ipywidgets*
 ##### Unfortunately, ipywidgets do not render on Github or nbviewer. You can still view it through Google Colab or run locally to get the access
 
-#### [Wisconsin Breast Cancer Detection][4]**
+#### **[Wisconsin Breast Cancer Detection][4]**
 
 Breast cancer is one of the well-known diseases for female, as well as for male, has been studied years. As far as a tumor type is concerned, early detection with a great precision and accuracy helps much better in developinsg a treating process for both patients and physicians. For this project, **decision tree** model was mainly used but in 3 different structures. 699 samples were used with 9 features to determine whether a sample is likely classified a binary target class as **Benign (non-invasive)** or **Malignant (invasive)** cancer type. 
 
@@ -106,7 +106,7 @@ I have found it gives eaiser interpretation using ***dtreeviz package*** than th
 
 #### *tools: scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy, Folium*
 
-#### [911 Responses in Toronto 2017][2]
+#### **[911 Responses in Toronto 2017][2]**
 
 This project mainly focused on data visualization using location data provided from Toronto City Open Data. The data frame was reorganized and clustered based on the top 10 call reason for each intersection in downtown Toronto using ***K-mean Clustering***. Then, each data were visualized on the folium map. For the future reference, it will be great to see the top 5 fire stations recieved 911 calls and to show thier coverage within x km radius on the same map. 
 
