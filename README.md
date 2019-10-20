@@ -9,15 +9,15 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 > Artificial Intelligence: Deep Learning
 - [**Asphalt Crack Segmentation**](#asphalt-crack-segmentation)
-- [**Variational Autoencoder: Hairstyle**](#vae-hairstyle-v.02)
-- [**CNN & Transfer Learning: Chest X-ray**](#chest-x-ray-v.01)
+- [**Variational Autoencoder: Hairstyle**](#vae-hairstyle-v02)
+- [**CNN & Transfer Learning: Chest X-ray**](#chest-x-ray)
 
 > Data Science: Machine Learning
 * [**911 Responses in Toronto**](#911-responses-in-toronto-2017)
 - [**Regression & SVM: Master's Program Addmission**](#master's-program-admission)
 
 > Data Visualization Focused
-* [**Decision Tree Libraries: Brest Cancer Detection**](#wisconsin-breast-cancer-detection-v.01)
+* [**Decision Tree Libraries: Brest Cancer Detection**](#wisconsin-breast-cancer-detection)
 
 ## Projects
 
@@ -32,7 +32,7 @@ A simple binary segmentation was practiced using the [Unet Model][14]. **[Superv
 Acknowledgement: A, Jayanth Balaji; G, Thiru Balaji; M S, Dinesh; Nair, Binoy; D. S, Harish Ram (2019), “Asphalt Crack Dataset”, Mendeley Data, v2 http://dx.doi.org/10.17632/xnzhj3x8v4.2
 
 
-#### **[VAE-Hairsyle V.02][12]**
+#### **[VAE Hairsyle V02][12]**
 
 Both *hair and bald* images were trained in one model. Latent dimension was increased from 2 to 128 in order to obtain more information in terms of feature distribution. **Keras-Flow From Directory** was used to build deeper layers (up to 512 filter numbers) and resize the input shape with larger pixels (112 x 112 x 1); however, more optimizations are required for better image reconstruction. The next step will be obtaining *hair* latent vector by subtracting located *bald* latent vectors from *hair inputs* and apply the *hair vectors* on new *bald inputs* to have hairs on same face.
 
@@ -41,7 +41,7 @@ Both *hair and bald* images were trained in one model. Latent dimension was incr
   <img src="VAE/VAE2/train_output.png" width="60%" class="center">
 </p>
 
-#### **[Chest X-Ray V.01][8]**
+#### **[Chest X-Ray][8]**
 
 A x_ray dataset was used from Kaggle [Chest X-Ray Images (Pneumonia)][9]. The main goal is building a model for a binary detction in order to defferentiate whether a test x-ray image was **Normal** or **Pneumonia**. A project to learn, build, and predict image data through ***Convolutional Neural Network (CNN)*** using Keras VGG16 (first model) and also comparing the prediction with the first model and pre-weighted **VGG16** ***(Transfer-Learning)*** model. All other resoucres that were not cited is also listed in "resource_modules.py." 
 
@@ -117,7 +117,9 @@ This project mainly focused on data visualization using location data provided f
 
 
 ## Mini Capstone Projects
-* **[Mini MNIST Project ver. 1.0][3]**: A simple mini project to create and test a deep learning model using MNIST data from Keras. 80:20 test split was done out of 60k dataset using the ***TensorFlow***. The model was created and tested using Google Colaboratory, GPU method. No optimization process was done because this was only meant to learn how to create a model. the loss vs. accuracy graph was created by running 20 epochs:
+* **[Mini MNIST Project][3]**
+
+A simple mini project to create and test a deep learning model using MNIST data from Keras. 80:20 test split was done out of 60k dataset using the ***TensorFlow***. The model was created and tested using Google Colaboratory, GPU method. No optimization process was done because this was only meant to learn how to create a model. the loss vs. accuracy graph was created by running 20 epochs:
 
 <p align="center">
   <img src="TensorFlow_miniproj/epoch_train_val.png" width="100%" class="center">
