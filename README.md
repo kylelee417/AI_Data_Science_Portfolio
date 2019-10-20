@@ -7,7 +7,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 
 > Artificial Intelligence: Deep Learning
-+ [**Asphalt Crack Segmentation**](#asphalt-crack-segmentation)
+- [**Asphalt Crack Segmentation**](#asphalt-crack-segmentation)
 
 > Data Science: Machine Learning
 * [**911 Responses in Toronto**](#911-responses-in-toronto-2017)
