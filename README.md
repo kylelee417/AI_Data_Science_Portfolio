@@ -24,6 +24,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 ### [Asphalt Crack Segmentation][13]
 
 A simple binary segmentation was practiced using the [Unet Model][14]. **[Supervise.ly][15]** (online-segmentation platform) was used to create masks on the cracked areas of input images. Augmentations were also done using the platform as it transformed from the input images (.jason) to output images (.png + masked). 95.5%~95.6% accuracy was obtained after 50 epochs training using 224x224 pixels. 
+
 <p align="center"> 
   <img src="asphalt_seg/masked.png" width="100%" class="center">
 </p>
@@ -44,16 +45,19 @@ Both *hair and bald* images were trained in one model. Latent dimension was incr
 A x_ray dataset was used from Kaggle [Chest X-Ray Images (Pneumonia)][9]. The main goal is building a model for a binary detction in order to defferentiate whether a test x-ray image was **Normal** or **Pneumonia**. A project to learn, build, and predict image data through ***Convolutional Neural Network (CNN)*** using Keras VGG16 (first model) and also comparing the prediction with the first model and pre-weighted **VGG16** ***(Transfer-Learning)*** model. All other resoucres that were not cited is also listed in "resource_modules.py." 
 
 Each model was run 200 epochs with softmax activation fuction for 2 categorical outputs. This first version was to execute the model before any fine-tuning: **The model was overfitted due to relatively lower test acc. compared to the validation acc. and high loss.**
+
 <p align="center">
   <img src="Chest X-Ray_Pneumonia/First_model.png" width="100%" class="center">
 </p>
  
 Then, Transfer-learning from pre-weighted VGG16: **No improvement after 25 epochs and overfitting, but it is better than the first model in overall.** 
+
 <p align="center">
   <img src="Chest X-Ray_Pneumonia/model_vgg16.png" width="100%" class="center">
 </p>
 
 **Detection Plots:**
+
 <p align="center">
   <img src="Chest X-Ray_Pneumonia/detection.png" width="100%" class="center">
 </p>
@@ -87,11 +91,15 @@ I have found it gives eaiser interpretation using ***dtreeviz package*** than th
 <p align="center">
   <img src="Breast_Cancer/dtree1.png" width="55%" class="center">
   <img src="Breast_Cancer/dtree2.png" width="35%" class="center">
-  
+</p>
+
+<p align="center">
   graphiz - **left** ,    interactive decision tree - **right**
   <img src="Breast_Cancer/dtree3.1.png" width="65%" class="center">
   **dtreeviz-visualization**
-  
+</p>
+
+<p align="center">
   <img src="Breast_Cancer/dtree4.1.png" width="55%" class="center"> **Bivariate Regression tree in 3D**
 </p>
 
