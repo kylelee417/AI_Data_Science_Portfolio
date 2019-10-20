@@ -9,7 +9,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 > Artificial Intelligence: Deep Learning
 - [**Asphalt Crack Segmentation**](#asphalt-crack-segmentation)
-- [**Variational Autoencoder: Hairstyle**](#vae-hairstyle-v02)
+- [**Variational Autoencoder: Hairstyle**](#vae-hairstyle-v.02)
 - [**CNN & Transfer Learning: Chest X-ray**](#chest-x-ray-v.01)
 
 > Data Science: Machine Learning
@@ -31,14 +31,18 @@ A simple binary segmentation was practiced using the [Unet Model][14]. **[Superv
 Acknowledgement: A, Jayanth Balaji; G, Thiru Balaji; M S, Dinesh; Nair, Binoy; D. S, Harish Ram (2019), “Asphalt Crack Dataset”, Mendeley Data, v2 http://dx.doi.org/10.17632/xnzhj3x8v4.2
 
 
-#### **VAE-Hairsyle V02][12]**: Both *hair and bald* images were trained in one model. Latent dimension was increased from 2 to 128 in order to obtain more information in terms of feature distribution. **Keras-Flow From Directory** was used to build deeper layers (up to 512 filter numbers) and resize the input shape with larger pixels (112 x 112 x 1); however, more optimizations are required for better image reconstruction. The next step will be obtaining *hair* latent vector by subtracting located *bald* latent vectors from *hair inputs* and apply the *hair vectors* on new *bald inputs* to have hairs on same face.
+#### **VAE-Hairsyle V.02][12]**
+
+Both *hair and bald* images were trained in one model. Latent dimension was increased from 2 to 128 in order to obtain more information in terms of feature distribution. **Keras-Flow From Directory** was used to build deeper layers (up to 512 filter numbers) and resize the input shape with larger pixels (112 x 112 x 1); however, more optimizations are required for better image reconstruction. The next step will be obtaining *hair* latent vector by subtracting located *bald* latent vectors from *hair inputs* and apply the *hair vectors* on new *bald inputs* to have hairs on same face.
 
 <p align="center">
   <img src="VAE/VAE2/loss.png" width="35%" class="center">
   <img src="VAE/VAE2/train_output.png" width="60%" class="center">
 </p>
 
-#### **[Chest X-Ray V.01][8]**: A x_ray dataset was used from Kaggle [Chest X-Ray Images (Pneumonia)][9]. The main goal is building a model for a binary detction in order to defferentiate whether a test x-ray image was **Normal** or **Pneumonia**. A project to learn, build, and predict image data through ***Convolutional Neural Network (CNN)*** using Keras VGG16 (first model) and also comparing the prediction with the first model and pre-weighted **VGG16** ***(Transfer-Learning)*** model. All other resoucres that were not cited is also listed in "resource_modules.py." 
+#### **[Chest X-Ray V.01][8]**
+
+A x_ray dataset was used from Kaggle [Chest X-Ray Images (Pneumonia)][9]. The main goal is building a model for a binary detction in order to defferentiate whether a test x-ray image was **Normal** or **Pneumonia**. A project to learn, build, and predict image data through ***Convolutional Neural Network (CNN)*** using Keras VGG16 (first model) and also comparing the prediction with the first model and pre-weighted **VGG16** ***(Transfer-Learning)*** model. All other resoucres that were not cited is also listed in "resource_modules.py." 
 
 Each model was run 200 epochs with softmax activation fuction for 2 categorical outputs. This first version was to execute the model before any fine-tuning: **The model was overfitted due to relatively lower test acc. compared to the validation acc. and high loss.**
 <p align="center">
@@ -58,7 +62,9 @@ Considering the data set was not balanced (appx. 3x more pneumonia samples) and 
 
 
 
-#### [Master's Program Admission][1]**: Designed a customized ***Logistic Regression and SVM*** model and achieved 90% accuracy in classifying whether an aplicant would likely be admitted or not admitted using 7 different features. ***PCA*** was also performed during the EDA process; however, the information loss was more than 20%. Therefore, it was found that using a simple logictic regression or classification model such as SVM would give the best fit model considering the dataset and variables were small.
+#### [Master's Program Admission][1]**
+
+Designed a customized ***Logistic Regression and SVM*** model and achieved 90% accuracy in classifying whether an aplicant would likely be admitted or not admitted using 7 different features. ***PCA*** was also performed during the EDA process; however, the information loss was more than 20%. Therefore, it was found that using a simple logictic regression or classification model such as SVM would give the best fit model considering the dataset and variables were small.
 
 <p align="center">
   <img src="Master's Program Admission/cm_LR.png" width="35%" class="center">
