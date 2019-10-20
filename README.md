@@ -4,20 +4,16 @@ This repository presents a collection of *personal Artificial Intelligence and D
 
 Any questions or feedback regarding this portfolio can be kindly directed to the author, Kyle Lee, at _***kylelee417@gmail.com***_.
 ## Current Project Lists
-* Artificial Intelligence
 
-* Data Science - Machine Learning
-
-
-<OL TYPE="square">
-<LI>Main Heading
+<OL>
+<LI>Artificial Intelligence - Deep Learning
 <UL>
 <LI>List item 1
 <LI>List item 2
 </UL>
-<LI>Secondary Heading
+<LI>Data Science - Machine Learning
 <UL>
-<LI>List item 1
+<LI>K-mean Clustering - 911 Responses in Toronto Downtown
 <LI>List item 2
 </UL>
 </OL>
