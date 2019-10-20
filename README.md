@@ -6,7 +6,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 ## Current Project Lists
 
 <OL>
-<LI>Artificial Intelligence - Deep Learning
+<LI>Artificial Intelligence - Deep Learning: Computer Vision
 <UL>
 <LI>List item 1
 <LI>List item 2
