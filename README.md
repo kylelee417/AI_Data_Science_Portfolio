@@ -13,7 +13,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 - [**CNN & Transfer Learning: Chest X-ray**](#chest-x-ray)
 > Data Science: Machine Learning
 * [**911 Responses in Toronto**](#911-responses-in-toronto-2017)
-- [**Regression & SVM: Master's Program Addmission**](#master-s-program-admission)
+- [**Regression & SVM: Master's Program Addmission**](#master's-program-admission)
 > Data Visualization Focused
 * [**Decision Tree Libraries: Brest Cancer Detection**](#wisconsin-breast-cancer-detection)
 
@@ -46,10 +46,12 @@ A x_ray dataset was used from Kaggle [Chest X-Ray Images (Pneumonia)][9]. The ma
 Each model was run 200 epochs with softmax activation fuction for 2 categorical outputs. This first version was to execute the model before any fine-tuning: **The model was overfitted due to relatively lower test acc. compared to the validation acc. and high loss.**
 <p align="center">
   <img src="Chest X-Ray_Pneumonia/First_model.png" width="100%" class="center">
+</p>
  
 Then, Transfer-learning from pre-weighted VGG16: **No improvement after 25 epochs and overfitting, but it is better than the first model in overall.** 
 <p align="center">
   <img src="Chest X-Ray_Pneumonia/model_vgg16.png" width="100%" class="center">
+</p>
 
 **Detection Plots:**
 <p align="center">
