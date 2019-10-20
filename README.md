@@ -6,6 +6,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 ## Current Project Lists
 
 * [**Asphalt Crack Segmentation**](#asphalt-crack-segmentation)
+* [**911 Responses in Toronto**](#2017-911-responses-in-toronto)
 
 ## Projects
 
