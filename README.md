@@ -13,7 +13,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 - [**CNN & Transfer Learning: Chest X-ray**](#chest-x-ray)
 > Data Science: Machine Learning
 * [**911 Responses in Toronto**](#911-responses-in-toronto-2017)
-- [**Regression & SVM: Master's Program Addmission**](#master's-program-admission)
+- [**Regression & SVM: Master's Program Addmission**](#master-program-admission)
 > Data Visualization Focused
 * [**Decision Tree Libraries: Brest Cancer Detection**](#wisconsin-breast-cancer-detection)
 
@@ -62,7 +62,7 @@ Then, Transfer-learning from pre-weighted VGG16: **No improvement after 25 epoch
   <img src="Chest X-Ray_Pneumonia/detection.png" width="100%" class="center">
 </p>
 
-### [Master's Program Admission][1]
+### [Master Program Admission][1]
 
 Designed a customized ***Logistic Regression and SVM*** model and achieved 90% accuracy in classifying whether an aplicant would likely be admitted or not admitted using 7 different features. ***PCA*** was also performed during the EDA process; however, the information loss was more than 20%. Therefore, it was found that using a simple logictic regression or classification model such as SVM would give the best fit model considering the dataset and variables were small.
 
@@ -94,9 +94,9 @@ I have found it gives eaiser interpretation using ***dtreeviz package*** than th
 </p>
 
 <p align="center">
-  graphiz - **left** ,    interactive decision tree - **right**
+  graphiz - LEFT ,    interactive decision tree - RIGHT
   <img src="Breast_Cancer/dtree3.1.png" width="65%" class="center">
-  **dtreeviz-visualization**
+  dtreeviz-visualization
 </p>
 
 <p align="center">
