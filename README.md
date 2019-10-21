@@ -22,7 +22,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 #### *tools: Keras, TensorFlow-GPU, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy*
 
-### [SSD-MobileNet Wait Time Application]
+### SSD-MobileNet Wait Time Application
 
 To be updated.
 Current plant is to use *Single Shot Multibox Detector (SSD)* model to detect customers in line and estimate the wait time.
