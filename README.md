@@ -27,9 +27,11 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 To be updated.
 Current plant is to use *Single Shot Multibox Detector (SSD)* model to detect customers in line and estimate the wait time.
 1) base-model: MobileNet, weight load: imagenet
-2) custom bounding box: remove rectangluar detector box, locate threshold infront of the counter
+2) custom bounding box: remove rectangluar detector box, locate threshold infront of the counter (orange)
 3) If customers in threshold box -> green, else red
-
+<p align="center"> 
+  <img src="SSD-mobilenet/concept.png" width="50%" class="center">
+</p>
 
 ### [Asphalt Crack Segmentation][13]
 
