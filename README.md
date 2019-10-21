@@ -1,11 +1,11 @@
 # AI and Data Science Project Portfolio.     
  
-This portfolio contains *personal Artificial Intelligence and Data Science projects* in the form of iPython Notebook. All data set were retrieved from public sources and cited. The topics are chosen from personal interest and some from courses' side projects. The primary focus of the projects is to employ various approaches and tools of data analysis/modelling to extract buried stories of the datasets on hand. This is an on-going portfolio which will more focus on deep learning project using GPU. 
+This portfolio contains *personal Artificial Intelligence and Data Science projects.* All data set were retrieved from public sources and cited (mostly from Kaggle). The topics are chosen based on personal interest and some from courses' side projects. The primary focus of the projects is to employ various approaches and tools of data analysis/modelling to extract buried stories of the datasets on hand. This is an on-going portfolio which will more focus on deep learning project using GPU. 
 
 Google Colab with GPU was mainly used for all AI computer vision projects.
 
 Any questions or feedback regarding this portfolio can be kindly directed to the author, Kyle Lee, at _***kylelee417@gmail.com***_.
-## Current Project Lists
+## Project Lists
 ##### Click on the title for a re-direction
 
 
