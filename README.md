@@ -1,6 +1,8 @@
-# Data Science Project Portfolio.     
+# AI and Data Science Project Portfolio.     
  
-This repository presents a collection of *personal Artificial Intelligence and Data Science projects* in the form of iPython Notebook. All data set were retrieved from public sources and cited. The topics and datasets being explored in this portfolio are chosen based on my own interest, the primary focus of the projects is to employ various approaches and tools of data analysis/modelling to extract buried stories of the datasets on hand. This is an on-going portfolio which will more focus on deep learning project using GPU. 
+This portfolio contains *personal Artificial Intelligence and Data Science projects* in the form of iPython Notebook. All data set were retrieved from public sources and cited. The topics are chosen from personal interest and some from courses' side projects. The primary focus of the projects is to employ various approaches and tools of data analysis/modelling to extract buried stories of the datasets on hand. This is an on-going portfolio which will more focus on deep learning project using GPU. 
+
+Google Colab with GPU was mainly used for all AI computer vision projects.
 
 Any questions or feedback regarding this portfolio can be kindly directed to the author, Kyle Lee, at _***kylelee417@gmail.com***_.
 ## Current Project Lists
@@ -27,8 +29,11 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 To be updated.
 Current plant is to use *Single Shot Multibox Detector (SSD)* model to detect customers in line and estimate the wait time.
 1) base-model: MobileNet, weight load: imagenet
-2) custom bounding box: remove rectangluar detector box, locate threshold infront of the counter (orange)
+2) custom bounding box: remove rectangluar detector box, locate border line in front of the counter (orange)
 3) If customers in threshold box -> green, else red
+4) The wait time will be determined by counting persons in the border box.
+
+Thie final output of the model will be looked this, but in video.
 <p align="center"> 
   <img src="SSD-mobilenet/concept.png" width="50%" class="center">
 </p>
