@@ -24,11 +24,11 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 
 #### *tools: Keras, TensorFlow-GPU, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, Numpy*
 
-### SSD-MobileNet Wait Time Application
+### SSD-VGG16 Wait Time Application
 
 To be updated.
 Current plant is to use *Single Shot Multibox Detector (SSD)* model to detect customers in line and estimate the wait time.
-1) base-model: MobileNet, weight load: imagenet
+1) base-model: VGG16
 2) custom bounding box: remove rectangluar detector box, locate border line in front of the counter (orange)
 3) If customers in threshold box -> green, else red
 4) The wait time will be determined by counting persons in the border box.
