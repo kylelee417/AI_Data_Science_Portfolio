@@ -8,7 +8,7 @@ Any questions or feedback regarding this portfolio can be kindly directed to the
 ## Project Lists
 ##### Click on the title for a re-direction
 
-
+  
 > Artificial Intelligence: Deep Learning
 - [**SSD-MobileNet: Wait Time**](#ssd-mobilenet-wait-time-application)
 - [**Asphalt Crack Segmentation**](#asphalt-crack-segmentation)
